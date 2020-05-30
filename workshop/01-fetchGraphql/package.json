@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "copy-env": "cp .env.example .env",
-    "start": "webpack-dev-server --hot"
+    "start": "webpack-dev-server --hot",
+    "relay": "relay-compiler --extensions js jsx tsx",
+    "relay:watch": "relay-compiler --extensions js jsx tsx --watch"
   }
 }
