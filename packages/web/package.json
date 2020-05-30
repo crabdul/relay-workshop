@@ -64,7 +64,7 @@
     "razzle:build": "razzle build",
     "razzle:prod": "NODE_ENV=production node build/server.js",
     "razzle:start": "razzle start",
-    "relay": "relay-compiler",
+    "relay": "relay-compiler --extensions js jsx tsx",
     "start": "webpack-dev-server --hot"
   }
 }
